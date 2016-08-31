@@ -12,8 +12,8 @@
         <div ng-controller="VoteController as vm">
             You have {{ vm.votes }} votes!
 
-            <button>Add Votes</button>
-            <button>Remove a vote</button>
+            <button onclick="incrementVotes()">Add Votes</button>
+            <button onclick="decrementVotes()">Remove a vote</button>
         </div>
     </div>
 
